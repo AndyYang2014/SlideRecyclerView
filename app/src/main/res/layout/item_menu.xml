@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="68dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/item_totop"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#c8cad2"
+        android:gravity="center"
+        android:text="置顶"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/item_delete"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/item_totop"
+        android:background="#fe0000"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+</RelativeLayout>
