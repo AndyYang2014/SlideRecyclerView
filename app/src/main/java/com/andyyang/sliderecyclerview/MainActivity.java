@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         init();
+
     }
 
     private void init() {
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mMainRecycler.setOnItemClickListener(new SlideRecyclerView.OnItemClickListener() {
             @Override
             public void onItemClick(int position) {
-                Toast.makeText(MainActivity.this, "点击了" + position, Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "show" + position, Toast.LENGTH_LONG).show();
             }
         });
         mMainRecycler.setLoadingListener(new XRecyclerView.LoadingListener() {

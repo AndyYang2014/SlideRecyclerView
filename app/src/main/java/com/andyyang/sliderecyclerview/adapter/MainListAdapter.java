@@ -32,13 +32,14 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.ViewHo
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
         holder.view.setTag(position);
 
         holder.menuView.findViewById(R.id.item_totop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mContext, "点击了置顶" + position, Toast.LENGTH_LONG).show();
+                Toast.makeText(mContext, "点击了置顶" + position
+                        , Toast.LENGTH_LONG).show();
             }
         });
 

@@ -120,7 +120,7 @@ public class SlideRecyclerView extends XRecyclerView {
                 int updy = (int) (yUp - mDownY);
                 if (Math.abs(updy) < mTouchSlop && Math.abs(updx) < mTouchSlop) {
                     if (mListener != null) {
-                        mListener.onItemClick(mTouchPosition);
+                        mListener.onItemClick(mTouchPosition - 1);
                     }
                 }
 

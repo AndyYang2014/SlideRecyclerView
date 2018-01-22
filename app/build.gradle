@@ -1,10 +1,5 @@
 apply plugin: 'com.android.application'
 
-tasks.withType(JavaCompile) {
-    options.encoding = "UTF-8"
-}
-
-
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.1"
@@ -15,15 +10,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
-        sourceSets.main {
-            jni.srcDirs = []
-        }
-
-
-        ndk {
-            abiFilters "armeabi", "armeabi-v7a"
-        }
 
     }
 
