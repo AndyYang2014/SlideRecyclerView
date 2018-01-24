@@ -18,11 +18,16 @@
 
 		//Add the dependency
     	dependencies {
-	        compile 'com.github.MyLucifer:SlideRecyclerView:1.0.1'
+	        compile 'com.github.MyLucifer:SlideRecyclerView:1.0.2'
 	}
 
+###②布局中使用
+    <com.andyyang.srecyclerview.SlideRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
 
-###②Adapter代码示例
+###③Adapter代码示例
     public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.ViewHolder> {
     private Context mContext;
 
@@ -80,9 +85,9 @@
 
         }
     }
-####③完工，但是有个已知问题，当content或者menu的根布局为LinearLayout时无法滑动。
+####④完工，但是有个已知问题，当content或者menu的根布局为LinearLayout时无法滑动。
 
-####④如遇见问题请提Issues或者发送邮件至我邮箱。
+####⑤如遇见问题请提Issues或者发送邮件至我邮箱。
 
 
 ### 个人博客站    [http://www.andyyang2014.com](http://www.andyyang2014.com "个人博客站")
