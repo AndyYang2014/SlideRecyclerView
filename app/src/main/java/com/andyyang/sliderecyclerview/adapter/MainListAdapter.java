@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.andyyang.sliderecyclerview.R;
-import com.andyyang.sliderecyclerview.widget.SlideItem;
+import com.andyyang.srecyclerview.SlideItem;
 
 /**
  * Created by AndyYang

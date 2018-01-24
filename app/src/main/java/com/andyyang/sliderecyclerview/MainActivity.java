@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.andyyang.sliderecyclerview.adapter.MainListAdapter;
 import com.andyyang.sliderecyclerview.adapter.decoration.DefaultDecoration;
-import com.andyyang.sliderecyclerview.widget.SlideRecyclerView;
+import com.andyyang.srecyclerview.SlideRecyclerView;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
 
 import butterknife.BindView;

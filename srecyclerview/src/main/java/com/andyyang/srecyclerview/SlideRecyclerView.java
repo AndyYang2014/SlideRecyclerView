@@ -1,4 +1,4 @@
-package com.andyyang.sliderecyclerview.widget;
+package com.andyyang.srecyclerview;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
